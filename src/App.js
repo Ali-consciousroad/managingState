@@ -3,6 +3,7 @@ import Fruits from "./Fruits";
 import FruitsCounter from "./FruitsCounter";
 
 function App() {
+  // We lifted up the state from the Fruits component to the App component
   // useState() hook 
   // Read-only state: Destructure the current state value fruits from the returned array
   const [fruits] = useState([

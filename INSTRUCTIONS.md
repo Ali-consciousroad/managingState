@@ -47,6 +47,10 @@ export default Fruits
 
 T​he state should be moved to the App component. That is the first step of this task.
 
-**Step 2.** Once you've moved the state up from the Fruits component to the App component, you need to update the FruitsCounter component so that it accepts that state from the App component, and then uses it to display the number of the available fruits using the length property of the array of fruits from the fruits state variable that comes from App and is received in FruitsCounter as a prop.utton tags, add the following text: Guess the number between 1 and 3. 
+**Step 2.** The Fruits component should be updated so that it accepts state from the App component.
 
-**Step 3.** Save your updates and serve the app so that it shows the correct count of fruits, while the rest of the output should remain unchanged.
+**Step 3.** Once you've lifted the state up from the Fruits component to the App component, you also need to update the FruitsCounter component. 
+
+Just like the Fruits component, the FruitsCounter component should also receive state from the App component, so that it can display the number of the available fruits using the length property of the array of fruits from the fruits state variable. This state variable comes from App and is received in FruitsCounter as prop.
+
+**Step 4.** Save your updates and serve the app so that it shows the correct count of fruits, while the rest of the output should remain unchanged. 
