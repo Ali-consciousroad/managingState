@@ -1,6 +1,7 @@
-function FruitsCounter(props) {
+// Create a functional component named FruitsCounter that accepts a prop called myFruits.
+function FruitsCounter({ myFruits}) {
     return (
-        <h2>Total fruits: { props.myFruits.length }</h2>
+        <h2>Total fruits: { myFruits.length }</h2>
     )
 }
 
